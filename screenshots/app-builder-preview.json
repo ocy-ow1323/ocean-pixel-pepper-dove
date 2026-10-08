@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "شب‌پیما",
+      "hasCanvas": true,
+      "bodyTextLen": 4328,
+      "bodyTextHash": "6bdd0018f85a2a18a88eb01476994900829d36ac9c31b650cccf20afc8201f3b",
+      "bodyTextPrefix": "شب‌پیما آغاز نخستین نور تقویم مقیاس نقطه‌ی آبی غبار ستاره جهان‌ه",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "شب‌پیما",
+      "hasCanvas": true,
+      "bodyTextLen": 4253,
+      "bodyTextHash": "719fdf1bdc95b4745babbb86b206c79a41e85319a7a5eddebc58840b22d71677",
+      "bodyTextPrefix": "شب‌پیما سفری در زمان، مکان، و جهان‌های ممکن شب‌پیما همه‌چیز از ی",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal.",
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/x-banner.jpg is missing. Games need a 50:11 X feed card (1200×264 JPEG) at public/x-banner.jpg — open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
